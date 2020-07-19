@@ -1,0 +1,50 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.7;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2019/07/Man-Silhouette.jpg");
+    min-height: 400px;
+    position: relative;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/46/da/e5/46dae512e375bee2664a025507da8795.jpg");
+    min-height:400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ptext {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+p{
+    padding: 5%;
+    background-color:black;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    color:white;
+    
+}

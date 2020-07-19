@@ -1,0 +1,18 @@
+<html>
+ 
+<body>
+    <script>
+        var str1 = prompt("Enter to check wheather is palindrome or not");
+        var temp =str1.toLowerCase();
+        var str2 = temp.split("").reverse().join('');
+        console.log(str2)
+        if(str2 == temp){
+            alert("its a palindrome");
+        }
+        else{
+            alert("not a palindrome");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maximum</title>
+</head>
+<body>
+    <p>Enter number variable1: <input type="number" id="v1"></p>
+    <p>Enter number variable2: <input type="number" id="v2"></p>
+    <p>Enter number variable3: <input type="number" id="v3"></p>
+    <p><button onclick="max()">Compare</button></p>
+    <script>
+        function max(){
+            a1=document.getElementById("v1").value;
+            a2=document.getElementById("v2").value;
+            a3=document.getElementById("v3").value;
+            alert(a1)
+            if(a1>a2 && a1>a3){
+                alert("the maximum of ("+a1+","+a2+","+a3+") is:"+a1);
+            }
+            else if(a2>a1 && a2>a3){
+                alert("the maximum of ("+a1+","+a2+","+a3+") is:"+a2);
+            }
+            else{
+                alert("the maximum of ("+a1+","+a2+","+a3+") is:"+a3);
+            }
+        }
+    </script>
+</body>
+</html>

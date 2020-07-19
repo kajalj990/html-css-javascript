@@ -1,0 +1,35 @@
+
+h1{   
+    font-family: cursive;
+}
+
+img{
+    
+    border-radius: 50% 50%;
+    float: right;
+    height: 400px;
+    width: 500px;
+
+}
+
+div{
+     background-color: azure;
+     font-family: Georgia;
+     line-height: 1.6;
+     
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    background-color:white;
+    
+}
+
+span{
+    margin-top:30px;
+}
+
+a:hover{
+    color: blue;
+}
+ 

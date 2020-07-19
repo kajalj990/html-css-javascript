@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Good day bad day</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var a=Math.floor(Math.random()*2);
+        var str;
+        if(a==0){
+             str="Good Day";
+        }
+        else{
+            str="Bad Day";
+        }
+        document.getElementById('demo').innerHTML="your day is a"+str;
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <script>
+        function compose(f1, f2) {
+
+            return (function (value) {
+                return (f1(f2(value)));
+            });
+        }
+        function square(y) {
+
+            return y * y;
+        }
+        function double(z) {
+            return z * 2;
+        }
+//var f1 = compose(square,double);
+//f1(5); --->100
+
+// var f2 = compose(double,square);
+// f2(5); --->50
+    </script>
+</body>
+
+</html>

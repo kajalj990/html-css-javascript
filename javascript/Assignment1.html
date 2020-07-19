@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fahrenheit to Celcius</title>
+</head>
+
+<body>
+        
+        <p>Fahrenheit : <input type="number" id="f" placeholder="32" required><sup>o</sup>F</p>
+        <p id="c"> <sup>o</sup>C</p>
+        <p><input type="button" onclick="calCelcius();" value="Show result"></p>
+    <script>
+        function calCelcius() {
+             n = document.getElementById("f").value;
+            document.getElementById('c').innerHTML ="Celcius :"+(n-32) *1.8 +"<sup>0</sup>C";
+        }
+    </script>
+</body>
+
+</html>

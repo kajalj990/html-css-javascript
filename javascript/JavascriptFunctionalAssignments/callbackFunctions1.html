@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <script>
+        function composedValue(f1, f2, x) {
+            console.log("value is:" + f1(f2(x)));
+        }
+        function square(y) {
+            return y * y;
+        }
+        function double(z) {
+            return z * 2;
+        }
+        composedValue(square, double, 5);
+    </script>
+</body>
+
+</html>

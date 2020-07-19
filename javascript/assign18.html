@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Perfect Square</h2>
+
+<p id="demo"></p>
+
+<p><button onclick="perfectSquare()">click to see which are perfect square</button></p>
+
+<script>
+var n = [12,9,7,25,36,4,23,13,45] ;
+document.getElementById('demo').innerHTML=n.toString();
+function perfectSquare() {
+for(i=0;i<n.length;i++){   					
+	if (is_perfect_square(n[i])) 
+    	document.write(n[i]+" Yes its a perfect square" + "<br />"); 
+	else
+   		 document.write(n[i]+"No its not a perfect square" + "<br />");             
+ 
+}
+}
+function is_perfect_square(n) {  
+    var sq = Math.sqrt(n); 
+    
+    return ((sq - Math.floor(sq)) === 0); 
+}
+
+</script>
+
+</body>
+</html>

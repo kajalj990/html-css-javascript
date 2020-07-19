@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+   <button onclick="sub()">click here</button>
+    <script>
+        function sub(){
+            var row = prompt("enter number of rows");
+            var col = prompt("enter number of columns");
+            document.write("<table>")
+            for(var i=0 ;i< Number(row);i++){
+                document.write("<tr>");
+                    for(var j = 0;j<Number(col);j++){
+                        document.write("<td>(#row:"+ i+" , " +"#col:"+ j +")</td>");
+                    }
+                    document.write("</tr>")
+            }
+            document.write("</table>")
+        }
+
+    </script>
+</body>
+
+</html>

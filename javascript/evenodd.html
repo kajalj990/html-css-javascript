@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd even</title>
+    
+</head>
+<body>
+    <p>
+        Enter a number to display its even or odd </p>
+    <p><input type="text" id="var"></p>
+    <button onclick="myFunction()">check</button>
+    <script>
+        function myFunction(){
+      var a=  document.getElementById('var').value;
+      if (a%2==0) {
+             alert("the enumber is even");
+      } else {
+            alert("the number is odd")
+      }
+        }
+    </script>
+</body>
+</html>

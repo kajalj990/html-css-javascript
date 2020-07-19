@@ -1,0 +1,90 @@
+.navbar {
+    position: fixed;
+    min-width: 300px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+    color: brown;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(2, 20, 20, 0.787);
+    display: block;
+    padding: 10px 30px;
+    ;
+
+}
+
+body {
+    color: rgba(2, 20, 20, 0.787);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+
+
+li {
+    list-style: none;
+    border-top: 1px solid rgba(0, 22, 22, 0.4);
+    width: 100%;
+    position: relative;
+    min-width: 300px;
+}
+
+ul {
+    height: 80%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+section {
+    line-height: 1.6;
+}
+
+#main-doc li {
+    border-top: none;
+    list-style: disc;
+    margin: 15px 0px 0px 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    width: 80%;
+    background-color: antiquewhite;
+    white-space: pre;
+    position: relative;
+    line-height: 2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

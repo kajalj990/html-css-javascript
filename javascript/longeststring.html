@@ -1,0 +1,18 @@
+<body>
+    Enter Here:<input type="text" id="text" >
+    <button onclick="longToken">Submit</button>
+    <p id="demo">The string not containing ab </p>
+    <script>
+        function longToken(){
+            var string=document.getElementById('text').value;
+            var token = string.split('/[ab]+/');
+            var str = "";
+            for (i=0;i<string.length;i++){
+                if(token[i].length>str.length){
+                    str = token[i]
+                }
+            }
+            document.getElementById('demo').innerHTML=str;
+        }
+    </script>
+</body>

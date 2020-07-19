@@ -1,0 +1,93 @@
+
+    .header {
+        background-color: black;
+        position: fixed;
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    a:hover {
+        background-color: rgb(37, 36, 36);
+        color: lightgreen;
+        border-radius: 5px;
+
+    }
+
+    .text1 {
+        padding: 10px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: cursive;
+        color: aliceblue;
+        top: 30%;
+        right: 50%;
+        position: absolute;
+    }
+
+    .img1 {
+        background-image: url("https://eskipaper.com/images/music-wallpaper-1.jpg");
+        min-height: 600px;
+
+    }
+
+    button {
+        background-color: rgba(21, 149, 21, 0.787);
+        padding: 20px;
+        font-size: medium;
+        border-radius: 20px;
+        color: aliceblue;
+        margin-bottom: 30px;
+    }
+
+    .img3 {
+        color: white;
+        font-family: 'Lucida Sans';
+        padding: 10%;
+        background-color: rgb(8, 8, 47);
+    }
+
+    .img2 {
+        background-color: black;
+
+    }
+
+    .container {
+        text-align: center;
+        color: white;
+        margin: auto;
+    }
+
+    .songs {
+        padding: 40px;
+        background-color: rgb(24, 24, 24);
+    }
+
+    footer {
+        display: block;
+        background-color: rgb(78, 77, 77);
+    }
+
+    footer .footer-cols ul li:first-child {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: #444 solid 1px;
+        margin-bottom: 1rem;
+        list-style-type: none;
+    }
+
+    footer .footer-cols {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem;
+        text-align: left;
+        font-size: 14px;
+    }

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>String to number</title>
+    </head>
+    <body>
+        <p><button onclick="represent()"> represent String in number</button></p>
+        <script>
+            function represent(){
+            var strings = ["1.2","2.3","3.4","4.5"];
+            var num = numberArray(strings);
+            document.write(typeof(num[1])+" : [");
+            for (i =0 ;i < strings.length;i++) {
+                document.write(num[i]+"  ");
+            }
+            document.write("]");
+
+            }
+            function numberArray(strings){
+                var num = strings.map(Number);
+                return num;
+            }
+        </script>
+    </body>
+</html>

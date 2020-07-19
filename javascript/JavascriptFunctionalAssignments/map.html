@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <script>
+        function map(arr, f1) {
+            let newArr = new Array();
+            for (var i = 0; i < arr.length; i++) {
+                newArr.push(f1(arr[i]));
+            }
+            return newArr;
+        }
+        function square(x) {
+            return x * x;
+        } map([1, 2, 3, 4, 5], square);
+
+//map([1, 4, 9, 16, 25], Math.sqrt);
+    </script>
+</body>
+
+</html>

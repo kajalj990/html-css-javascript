@@ -1,0 +1,36 @@
+<html>
+
+<body>
+    <h1>Guessing game</h1>
+    <p>You have only 7 attempts</p>
+    <p>We have generated a random numbers from 1 - 100</p>
+    <p> You just need to guess what the number would be</p>
+</body>
+<button onclick="guess();">Play</button>
+<h2 id="ans"></h2>
+<script>
+    function guess() {
+        var secretNo = Math.floor(Math.random * 100) + 1;
+        var attempts = 1;
+        var number = 0;
+        while (number != secret && attempts < 8) {
+            document.write
+            number = prompt("Enter a number");
+            if (Number(number) > secretNo) {
+                alert("Too high number!!\n" + "Attempt:" + attempts);
+            }
+            else if (Number(number) < secretNo) {
+                alert("Lower then the number!!\nAttempts:" + attempts);
+            }
+            else {
+                alert("congrats you guessed it right");
+            }
+            attempts=attempts+1;
+        }
+        if (Number(number) != secretNo) {
+            document.getElementById("ans").innerHTML = "Oops!! You ran out of attempts\n" + "The number was :" + secretNo;
+        }
+    }
+</script>
+
+</html>

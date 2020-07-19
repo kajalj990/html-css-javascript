@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <p><button onclick="show_array()"> show 2-D Array</button></p>
+    <script>
+        function show_array(){
+            var arr=create_array();
+            console.log(show_array);
+            document.write("[")
+            for(i=0;i<100;i++){
+                for(j=0;j<10;j++){
+                    document.write(arr[i][j]+" , ");
+                }
+            }
+            document.write("]");
+         }
+
+         function create_array(){
+             var arr = new Array(100);
+             for(i=0;i<100;i++){
+                 arr[i]=new Array(100);
+             }
+             for(i=0;i<100;i++){
+                 for(j=0;j<100;j++){
+                    
+                     arr[i][j]=Math.random();
+                 }
+             }
+             return arr;
+         }
+    </script>
+</body>
+
+</html>
